@@ -12,7 +12,6 @@ while "_" in resultList:
         for i in range(len(randomWord)):
             if guess == randomWord[i]:
                 resultList[i] = guess
-                #resultList.pop(i+1)
     print("A new word =",resultList)
 print(">>>>>>>",randomWord,"<<<<<<<")
 
