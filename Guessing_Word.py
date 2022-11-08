@@ -11,8 +11,8 @@ while "_" in resultList:
     if guess in randomWord:
         for i in range(len(randomWord)):
             if guess == randomWord[i]:
-                resultList.insert(i,guess)
-                resultList.pop(i+1)
+                resultList[i] = guess
+                #resultList.pop(i+1)
     print("A new word =",resultList)
 print(">>>>>>>",randomWord,"<<<<<<<")
 
